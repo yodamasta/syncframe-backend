@@ -80,6 +80,7 @@ app.post("/api/generate", async (req, res) => {
   }
 });
 
+// 🔥 CORRECTION FINALE POUR RENDER
 app.listen(PORT, () => {
-  console.log(`Backend Gemini lancé sur http://localhost:${PORT}`);
+  console.log(`✅ Backend Gemini prêt sur le port ${PORT}`);
 });
